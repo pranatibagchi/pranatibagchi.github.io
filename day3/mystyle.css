@@ -1,0 +1,87 @@
+a:hover {
+    color:red;
+    text-decoration: none;
+}
+
+a:focus {
+    color:yellow;
+}
+
+.my_color {
+
+    color: green;
+
+}
+.my_font {
+
+    font-size:22px;
+}
+
+.my_box {
+    /*
+
+    border-top: 10px;
+    border-top-style: solid;
+    border-top-color: blue;
+
+    border-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-color:blue;
+
+    border-left: 5px;
+    border-left-style: solid;
+    border-left-color: blue;
+
+    border-right: 5px;
+    border-right-style: solid;
+    border-right-color: blue;
+    */
+
+    background-color: aquamarine;
+    border: 10px solid black;
+
+/*padding-top: 20px;
+padding-bottom: 20px;
+padding-left:20px;
+padding-right:20px;/*/
+
+padding: 10px;
+
+/*margin-top:20px;
+margin-bottom: 20px;
+margin-left: 20px;
+margin-right:20px;*/
+
+margin:20px;
+width:50%;
+height:400px;
+
+background-image:url(Flower3.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment: fixed;
+
+margin-left:auto;
+margin-right:auto;
+
+
+}
+Form{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+.my_input_txt {
+    width:100%;
+margin:10px;
+}
+
+}
+@media (max-width:500px) {
+    h1 {
+    font-size:10px;
+
+}
+
+}
