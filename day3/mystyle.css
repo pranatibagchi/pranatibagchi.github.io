@@ -66,7 +66,7 @@ margin-right:auto;
 
 
 }
-Form{
+Form{    /*makes a form */
     width:50%;
     margin-left: auto;
     margin-right: auto;
@@ -77,8 +77,8 @@ Form{
 margin:10px;
 }
 
-}
-@media (max-width:500px) {
+
+@media (max-width:500px) { /*this media query defines styling and font for desktop and mobile view */
     h1 {
     font-size:10px;
 
