@@ -39,7 +39,7 @@ div {
     color:rgb(158, 73, 158);
 }
 .my_link:hover {
-text:decoration:none;
+text-decoration:none;
 }
 .my_link {
 color:black;
