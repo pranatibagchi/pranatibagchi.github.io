@@ -10,6 +10,8 @@
    <!--bootstrap should be above stylesheet css-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="style.css">
 
@@ -17,6 +19,46 @@
 </head>
 <body>
    
+<nav class="navbar navbar-default navbar-fixed-top"> <!--making navigation bar on top-->
+    <div class="container">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed"
+    data-target="#my-nav" aria-expanded="false">
+    <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a href="" class="navbar-brand">
+            <img src="Signage.png" width="90" alt="" srcset="">
+        </a>
+    </div>
+
+        <div class="collapse navbar-collapse" id="my-nav">
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="">About Us</a>
+                </li>
+                <li>
+                        <a href="">Our Program</a>
+                    </li>
+                    <li>
+                            <a href="">News and Info</a>
+                        </li>
+            
+                </ul>
+
+        </div>
+
+
+</div>
+
+</nav>
+
+<div class="general_spacing"></div>
+
+
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -96,32 +138,164 @@
 
         <div class="row">
             <div class="col-md-6">
-                row 4 col 1
+                <h2>Sign Up Here</h2>
+                <hr> <!--horizontal line-->
+
+               <form action=""> <!--making a form-->
+
+                <!-- <legend>Sign Up Here</legend> also does the same thing as above in h2 and hr-->
+
+                <div class="form-group">
+                    <label for="">Full Name</label>
+                    <input type="text" name id="" class="form-control" placeholder="Enter your name">
+                </div>
+
+                <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="email" name id="" class="form-control" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="newsletter" id=""> Send me newsletter
+                        </label>
+                    </div>
+                    <div class="radio">
+                            <label>
+                                    <input type="radio" name="newsletter" id=""> Don't send me newsletter
+                                </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="SEND" class="btn btn-primary">
+                </div>
+
+               </form> 
+
             </div>
 
-            <div class="col-md-6">
-                row 4 col 2
+            <div class="col-md-6"> <!--if you add text-center after 6, it will centerlise your text-->
+                <h2>Why join The Lavender Spaceship Project?</h2>
+                <hr>
+                <p>
+                        Introduce your primary and middle school girls to the exciting world of STEM where they solve  problems in context, build prototypes, code and tinker with the latest technological tools and software. 
+                        Our goal is to show the girls that STEM is exciting, doable and full of creativity. It doesn't have to be overwhelming or boring. They will work collaboratively, share ideas and have loads of fun.                     ​
+                        At The Lavender Spaceship Project, we provide an environment where girls experience a sense of social belongingness. They are encouraged, motivated and become aware of more girls like them from around the world who are 
+                        doing amazing work in STEM.
+                                               
+                        Our learning platform at The Lavender Spaceship project not only develops the passion for science and technology, it also builds a community of young girls who will help spread the enthusiasm for STEM, alter perceptions 
+                        of career choices for women and foster progressive mindsets.
+                </p>
+
+
             </div>
 
         </div>
 
         <div class="row">
             <div class="col-md-4">
-                row 5 col 1
+                
+                <h3 class="text-center">Opening Hours</h3>
+                <table class="table table-striped">
+                    <thread>
+                        <tr>
+                            <th>
+                                Day
+                            </th>
+                            <th>
+                                Hours
+                            </th>
+                        </tr>
+                    </thread>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Monday to Thursday
+                            </td>
+                            <td>
+                                9am - 5pm
+                            </td>
+                                                            
+                         </tr>
+                         <tr>
+                             <td>
+                                 Friday to Saturday
+                             </td>
+                             <td>
+                                 11am - 3am
+                             </td>
+                         </tr>
+                         <tr>
+                             <td>
+                                 Sunday
+                             </td>
+                             <td>
+                                 Closed
+                             </td>
+                         </tr>
+                    </tbody>
+                </table>
+
             </div>
 
             <div class="col-md-4">
-                row 5 col 2
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.783459302269!2d103.90183261394712!3d1.305002899048184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1872620c5925%3A0xdc37630d64fed7c0!2s66+E+Coast+Rd%2C+Singapore+428778!5e0!3m2!1sen!2ssg!4v1543632836897" class="embed-responsive-item"></iframe>
+                </div>
+                 
             </div>
 
             <div class="col-md-4">
-                row 5 col 3
+               <h3>Contact Us</h3> 
+                <ul class="list-group">
+
+                    <li class="list-group-item">
+                        <a href="+65 8223 4825" class="my_link"> <!-- ahref automatically open up the email software-->
+                        <i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +65 8223 4825<!--nbsp adds one space. can add multiple nbsp for spaces-->
+                    </a>
+                    </li>
+
+                    <li class="list-group-item">
+                        <a href="mailto:info@lavenderspaceship.com">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp; info@lavenderspaceship.com
+                        </a>
+                    </li>
+
+                    <li class="list-group-item">
+                        <a href="https://www.facebook.com/thelavenderspaceshipproject/">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;  https://www.facebook.com/thelavenderspaceshipproject/
+                        </a>
+                    </li>
+
+                </ul>
+
             </div>
         </div>
-
+                        
         <div class="row">
-            <div class="col-md-12">
-                row 6 col 1
+            <hr> <!--gives an empty line space-->
+            <div class="col-md-12 text-center">
+                <ul class="list-inline"> <!--list will be in the same line-->
+                    <li>
+                        <a href="insta">
+                                <i class="fa fa-instagram fa-2x my_icon_color" aria-hidden="true"></i>  <!--fa-2x makes the icon size bigger-->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/thelavenderspaceshipproject/">
+                                <i class="fa fa-facebook-official fa-2x my_icon_color" aria-hidden="true"></i> <!--if after 2x you put a class selector like my_icon_color that is defined in CSS file as .my_icon_color {color:red} the color of the icon will change-->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.lavenderspaceship.com">
+                            <i class="fa fa-google fa-2x my_icon_color" aria-hidden="true"></i>
+                        </a>
+
+                    </li>
+                </ul>
+
+
             </div>
         </div>
     </div>
